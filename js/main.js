@@ -212,6 +212,41 @@
 
 	};
 
+    // Contact
+	var contactAnimate = function() {
+
+		if ( $('#contact').length > 0 ) {	
+			$('#contact .to-animate').each(function( k ) {
+				
+				var el = $(this);
+				
+				setTimeout ( function () {
+					el.addClass('fadeInUp animated');
+				},  k * 200, 'easeInOutExpo' );
+				
+			});
+		}
+
+	};
+	var contactWayPoint = function() {
+
+		if ( $('#contact').length > 0 ) {
+			$('#contact').waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this).hasClass('animated') ) {
+
+
+					setTimeout(contactAnimate, 200);
+
+					
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '95%' } );
+		}
+
+	};
+
 	// Team
 	var teamAnimate = function() {
 
@@ -451,6 +486,7 @@
 		navigationSection();
 
 		aboutWayPoint();
+        contactWayPoint();
 		teamWayPoint();
 		servicesWayPoint();
 		featuresWayPoint();

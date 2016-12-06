@@ -603,7 +603,7 @@
                     </form>
                 </div>
                 <div align="right" class="col-md-6 to-animate">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d973.805502484975!2d-66.74183010718602!3d18.46859003412485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spr!4v1480964636427" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7984.144238823193!2d-66.74468132076231!3d18.4667605052135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf81fe612f4f1f3f7!2sUniversidad+de+Puerto+Rico+-+Arecibo!5e0!3m2!1sen!2spr!4v1481000933851" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -615,8 +615,8 @@
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	      if($_POST['email'] != "" && $_POST['asunto'] != "" && $_POST['mensaje'] != "")
 	      {
-              //, elliot.lopez1@upr.edu"
-            $to = "emmanuel.castro@upr.edu";
+              // poner el de acosta y presidenta
+            $to = "emmanuel.castro@upr.edu, elliot.lopez1@upr.edu, aixa.ramirez@upr.edu";
             $message = $_POST['mensaje'];
             $from = $_POST['email'];
             $asunto = $_POST['asunto'];

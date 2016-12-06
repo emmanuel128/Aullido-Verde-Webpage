@@ -21,6 +21,25 @@
 			echo"<p>El envio de su mensaje fallo , trate mas tarde...</p>";
 			
 ?>
+        <?php
+
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+	      if($_POST['email'] != "" && $_POST['asunto'] != "" && $_POST['mensaje'] != "")
+	      {
+          $email = $_POST['email'];
+          $mensaje = "Asunto: " . $_POST['asunto'] . "\n\nMensaje: ". $_POST['message'];
+          $mensaje_usuario = "Saludos, " . "\n\nSu mensaje a sido enviado. Pronto nos estaremos comunicando con usted para ayudarle.";
+      		
+      		if(mail("emmanuel.castro@upr.edu, elliot.lopez1@upr.edu", $_POST['asunto'] , "$mensaje", "From: $email") && mail($email, "Mensaje automático", $mensaje_usuario, "De: Aullido Verde")){
+                // echo '';  //presentar modal éxito
+            }
+
+      		else{
+                // echo ''; //presentar modal error
+            }
+	   }
+    }
+  ?>
 </body>
 
 </html>

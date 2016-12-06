@@ -195,7 +195,7 @@
             <nav class="navbar navbar-default">
                 <div class="navbar-header">
                     <!-- Mobile Toggle Menu Button --><a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-                    <a class="navbar-brand" href="index.html"><img src="images/icon2.fw.png" STYLE="position:absolute; TOP:10px; right:1135px; WIDTH:50px; HEIGHT:50px"> &nbsp Aullido Verde</a>
+                    <a class="navbar-brand" href="index.php"><img src="images/icon2.fw.png" STYLE="position:absolute; TOP:10px; right:1135px; WIDTH:50px; HEIGHT:50px"> &nbsp Aullido Verde</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -284,12 +284,12 @@
                             <h3>Somos una asociación estudiantil de la Universidad de Puerto Rico en Arecibo enfocada a mejorar el medio ambiente</h3> </div>
                     </div>
                 </div>
-                <div class="col-md-8 to-animate"> <img src="images/20160927_105518.jpg" class="img-responsive img-rounded" alt="Miembros de Aullido Verde"> </div>
+                <div class="col-md-8 to-animate"> <img src="images/about.jpg" class="img-responsive img-rounded" alt="Miembros de Aullido Verde"> </div>
                 <div class="col-md-4 to-animate">
                     <h2>Misión</h2>
                     <p>Queremos lograr un impacto social y cultural en la concienciación del daño ambiental, con la intención de corregir la inacción que por años ha incrementado en UPRA y en Puerto Rico.</p>
                     <h2>Visión </h2>
-                    <p>Acorde con el impacto ambiental que causa la indiferencia ante el daño que le hacemos a nuestro más preciado recurso, el planeta tierra. aullido verde, asociación estudiantil del UPRA; desea sembrar la semilla de la concienciación en todos aquellos que de una u otra forma formamos parte de UPRA  y de la comunidad.</p>
+                    <p>Acorde con el impacto ambiental que causa la indiferencia ante el daño que le hacemos a nuestro más preciado recurso, el planeta tierra. aullido verde, asociación estudiantil del UPRA; desea sembrar la semilla de la concienciación en todos aquellos que de una u otra forma formamos parte de UPRA y de la comunidad.</p>
                 </div>
                 <div class="col-md-12 to-animate" align="left">
                     <h2>Reglamento: </h2>
@@ -327,7 +327,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 text-center to-animate">
-                            <div class="person"> <img src="images/ingruid.jpg" class="img-responsive img-rounded" alt="Person">
+                            <div class="person"> <img src="images/ingrid.jpg" class="img-responsive img-rounded" alt="Person">
                                 <h3 class="name">Ingrid C. Arroyo Rodz</h3>
                                 <div class="position">Presidenta</div>
                                 <p> Departamento de Física-Química</p>
@@ -420,25 +420,24 @@
                     <div class="box to-animate">
                         <div class="icon colored-4"><span><i class="icon-speech-bubble"></i></span></div>
                         <h3>Charlas Educativas</h3>
-                        <p>Brindamos diferentes charlas educativas y demostrativas sobre la contaminación, recliclaje, reuso, composta entre otras.Llevamos charlas educativas a las escuelas, creamos proyectos de reciclaje y composta en escuelas. Tenemos una mesa informativa y educativa en la actividad de educación para niños de educación especial. </p>
-						<img src="images/escuelas.jpg" class="img-responsive img-rounded" alt="Miembros de Aullido Verde">
-                    </div>
+                        <p>Brindamos diferentes charlas educativas y demostrativas sobre la contaminación, recliclaje, reuso, composta entre otras.Llevamos charlas educativas a las escuelas, creamos proyectos de reciclaje y composta en escuelas. Tenemos una mesa informativa y educativa en la actividad de educación para niños de educación especial. </p> <img src="images/escuelas.jpg" class="img-responsive img-rounded" alt="Miembros de Aullido Verde"> </div>
                 </div>
                 <div class="col-md-4">
                     <div class="box to-animate">
                         <div class="icon colored-1"><span><i class="icon-recycle"></i></span></div>
                         <h3>Reciclaje y Compostaje</h3>
-                        <p>Tenemos un proyecto de reciclaje en nuestra Universidad el cual consiste de un centro de acopio para el recogido de cartones, periódicos, latas, y plástico. Como parte de este, tenemos zafacones para la recolección de latas y botellas plásticas localizados en diferentes sitios de la universidad.</p>     <br>
-						<img src="images/resicla.jpg" class="img-responsive img-rounded" alt="Miembros de Aullido Verde">
-                    </div>
+                        <p>Tenemos un proyecto de reciclaje en nuestra Universidad el cual consiste de un centro de acopio para el recogido de cartones, periódicos, latas, y plástico. Como parte de este, tenemos zafacones para la recolección de latas y botellas plásticas localizados en diferentes sitios de la universidad.</p>
+                        <br> <img src="images/recicla.jpg" class="img-responsive img-rounded" alt="Miembros de Aullido Verde"> </div>
                 </div>
                 <div class="col-md-4">
                     <div class="box to-animate">
                         <div class="icon colored-3"><span><i class="icon-sun"></i></span></div>
                         <h3>Limpieza del medio ambiente</h3>
-                        <p>Los miembros de Aullido Verde junto a otras organizaciones he miembros comunitarios se reúnen para la limpieza de carreteras, playas y cuevas.</p><br><br><br><br>
-						<img src="images/IMG_4488.jpg" class="img-responsive img-rounded" alt="Miembros de Aullido Verde">
-                    </div>
+                        <p>Los miembros de Aullido Verde junto a otras organizaciones he miembros comunitarios se reúnen para la limpieza de carreteras, playas y cuevas.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br> <img src="images/limpieza.jpg" class="img-responsive img-rounded" alt="Miembros de Aullido Verde"> </div>
                 </div>
             </div>
         </div>
@@ -511,8 +510,7 @@
                         <div class="fh5co-press-img" style="background-image: url(images/Sierra_Club_logo.png)"> </div>
                         <div class="fh5co-press-text">
                             <h3 class="h2 fh5co-press-title">Sierra Club Puerto Rico  <span class="fh5co-border"></span></h3>
-                            <p>El Sierra Club de Puerto Rico es una organización de base comunitaria ambiental. Es uno de los capítulos de la organización de base m
-								8ás grande de Estados Unidos. El Sierra Club es la mayor, más antigua y más influyente organización medioambiental de base en Estados Unidos.</p>
+                            <p>El Sierra Club de Puerto Rico es una organización de base comunitaria ambiental. Es uno de los capítulos de la organización de base m 8ás grande de Estados Unidos. El Sierra Club es la mayor, más antigua y más influyente organización medioambiental de base en Estados Unidos.</p>
                             <p><a target="_blank" href="https://puertorico.sierraclub.org/" class="btn btn-primary btn-sm">más información</a></p>
                         </div>
                     </div>
@@ -575,7 +573,7 @@
                     </div>
                 </div>
                 <div align="left" class="col-md-6 to-animate">
-                    <form method="post" action="send-email.php" class="form-horizontal">
+                    <form method="post" class="form-horizontal">
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="asunto">Asunto:</label>
                             <div class="col-sm-10">
@@ -599,8 +597,7 @@
                             <div class="col-sm-offset-2 col-sm-10">
                                 <button type="reset" class="btn btn-primary">Borrar</button>
                                 <button type="submit" class="btn btn-primary">Enviar</button>
-                                <!--<input type="hidden" name="submitted" id="submitted" value="true"/>-->
-                                 <!--data-toggle="modal" data-target="#ok-modal"-->
+                                <!--data-toggle="modal" data-target="#ok-modal"-->
                             </div>
                         </div>
                     </form>
@@ -611,28 +608,60 @@
             </div>
         </div>
     </div>
-    <footer id="footer" role="contentinfo">
+    <!-- php -->
+    <?php
+    $ok_modal_flag = false;
+    $error_modal_flag = false;
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+	      if($_POST['email'] != "" && $_POST['asunto'] != "" && $_POST['mensaje'] != "")
+	      {
+              //, elliot.lopez1@upr.edu"
+            $to = "emmanuel.castro@upr.edu";
+            $message = $_POST['mensaje'];
+            $from = $_POST['email'];
+            $asunto = $_POST['asunto'];
+            $subject = "Aullido Verde Webpage: $asunto";
+            $headers = "From: $from";
+            $user_message = "Saludos, \n\nSu mensaje a sido enviado. Pronto nos estaremos comunicando con usted para ayudarle.";
+            $user_subject = "Mensaje automático";
+            $user_header = "De: Aullido Verde";
+      		
+      		if(mail($to, $subject, $message, $headers) && mail($from, $user_subject, $user_message, $user_header)){
+                 $ok_modal_flag = true;  //presentar modal éxito
+            }
+
+      		else{
+                $error_modal_flag = true; //presentar modal error
+            }
+	   }
+    }
+    ?>
+    <?php if($ok_modal_flag):?>
+    <script>$("#ok-modal").modal("show");</script>
+    <?php endif;?>
+    <!--<//?php if($ok_modal_flag):?>-->
+
+    <!--fh5co-testimonials  style="background-color:#65d269;"-->
+    <footer id="footer" style="background-color: #f4f4f4;" role="contentinfo">
         <div class="container">
             <div class="row row-bottom-padded-sm">
-                <div class="col-md-12">
-                    <p class="copyright text-center">CCOM 4305 Primer Semestre 2016-2017</p>
-                    <p class="copyright text-center">Elliot R. López Collazo &amp; Emmanuel Castro Soto </p>
-                    <p class="copyright text-center">&copy; 2016<a href="index.html">Aullido Verde</a> Km. 0.8, PR-653, Arecibo, 00612 </p>
-                    <p class="copyright text-center">(787)815-0000 <b>Ext.3160</b></p>
+                <div align="center" class="col-md-12">
+                    <p class="copyright text-center">CCOM 4305 Primer Semestre 2016-2017
+                        <br> Elliot R. López Collazo &amp; Emmanuel Castro Soto
+                        <br>&copy; 2016<a href="index.php"> Aullido Verde</a> Km. 0.8, PR-653, Arecibo, 00612
+                        <br>(787)815-0000 <b>Ext.3160</b></p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <ul class="social social-circle">
-                        <li><a target="_blank" href="https://www.facebook.com/groups/aullido.verde.upra/ "><i class="icon-facebook"></i></a></li>
-                        <!--<li><a href="#"><i class="icon-youtube"></i></a></li>
+            <div class="col-md-12 text-center">
+                <ul class="social social-circle">
+                    <li><a target="_blank" href="https://www.facebook.com/groups/aullido.verde.upra/ "><i class="icon-facebook"></i></a></li>
+                    <!--<li><a href="#"><i class="icon-youtube"></i></a></li>
 						<li><a href="#"><i class="icon-twitter"></i></a></li>
 						<li><a href="#"><i class="icon-pinterest"></i></a></li>
 						<li><a href="#"><i class="icon-linkedin"></i></a></li>
 						<li><a href="#"><i class="icon-dribbble"></i></a></li>-->
-                        <li><a target="_blank" href="http://www.pictaram.com/user/aullido.verde/1487416601"><i class="icon-instagram"></i></a></li>
-                    </ul>
-                </div>
+                    <li><a target="_blank" href="http://www.pictaram.com/user/aullido.verde/1487416601"><i class="icon-instagram"></i></a></li>
+                </ul>
             </div>
         </div>
     </footer>

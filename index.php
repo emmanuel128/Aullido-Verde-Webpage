@@ -299,7 +299,8 @@
                         <li>Aullido Verde al ser una asociación ambiental, el miembro debe de con la ética ambiental.</li>
                         <li>Problemas internos de la asociación debe de llevarse a los consejeros y la directiva.</li>
                         <li>La asociación es abierta a toda la comunidad universitaria. </li>
-                    </ul>
+						<li>Se solicita un cargo de $10 para la membresía de un año y $10 para la camisa de la asociación.</li>
+					</ul>
                 </div>
             </div>
         </div>
@@ -313,7 +314,7 @@
                     <div class="row row-bottom-padded-lg">
                         <div class="col-md-4 text-center to-animate">
                             <div class="person"> <img src="images/acosta.jpg" class="img-responsive img-rounded" alt="Person">
-                                <h3 class="name">Angel 'Albert' Acosta-Colon</h3>
+                                <h3 class="name">Angel A. Acosta-Colon</h3>
                                 <div class="position">Mentor</div>
                                 <p> Director del Departamento de Física-Química</p>
                                 <br>
@@ -342,7 +343,7 @@
                         </div>
                         <div class="col-md-4 text-center to-animate">
                             <div class="person"> <img src="images/melisa.jpg" class="img-responsive img-rounded" alt="Person">
-                                <h3 class="name">Melissa Amenabar</h3>
+                                <h3 class="name">Melisa Amenabar</h3>
                                 <div class="position">Secretaria</div>
                                 <p> Departamento de Física-Química</p>
                                 <p> Bachillerato en Procesos Químicos Industriales.</p>
@@ -495,7 +496,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 section-heading text-center">
-                    <h2 class="single-animate animate-press-1">Asociaciónes</h2>
+                    <h2 class="single-animate animate-press-1">Asociaciones</h2>
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 subtext single-animate animate-press-2">
                             <h3>Estas son las asociaciones hermanas que comparten las mismas metas de Aullido Verde.</h3> </div>
@@ -646,7 +647,7 @@
         <div class="container">
             <div class="row row-bottom-padded-sm">
                 <div align="center" class="col-md-12">
-                    <p class="copyright text-center">CCOM 4305 Primer Semestre 2016-2017
+                    <p class="copyright text-center">CCOM 4305 L20  Primer Semestre 2016-2017
                         <br> Elliot R. López Collazo &amp; Emmanuel Castro Soto
                         <br>&copy; 2016<a href="index.php"> Aullido Verde</a> Km. 0.8, PR-653, Arecibo, 00612
                         <br>(787)815-0000 <b>Ext.3160</b></p>

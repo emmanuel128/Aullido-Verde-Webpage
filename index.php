@@ -204,7 +204,7 @@
                         <li><a href="#" data-nav-section="directiva"><span>Directiva</span></a></li>
                         <li><a href="#" data-nav-section="actividades"><span>Actividades</span></a></li>
                         <!--<li><a href="#" data-nav-section="testimonials"><span>Testimonials</span></a></li>-->
-                        <li><a href="#" data-nav-section="asociacion"><span>Asociaciones</span></a></li>
+                        <li><a href="#" data-nav-section="asociacion"><span>Asociaciónes</span></a></li>
                         <li><a href="#" data-nav-section="contact"><span>Contáctenos</span></a></li>
                     </ul>
                 </div>
@@ -223,7 +223,7 @@
                             <div class="fh5co-owl-text-wrap">
                                 <div class="fh5co-owl-text">
                                     <h1 class="fh5co-lead to-animate" style="color:#F5F5F5;">Aullido Verde</h1>
-                                    <h3 class="fh5co-sub-lead to-animate">Una Asociación Estudiantil de la Universidad de Puerto en Arecibo dedicada al reciclaje</h3>
+                                    <h3 class="fh5co-sub-lead to-animate">Una Asosiacion Estudiantil de la Universidad de Puerto en Arecibo dedicada al reciclaje</h3>
                                     <!--<p class="to-animate-2"><a href="#" class="btn btn-primary btn-lg">View Case Study</a></p>-->
                                 </div>
                             </div>
@@ -299,8 +299,7 @@
                         <li>Aullido Verde al ser una asociación ambiental, el miembro debe de con la ética ambiental.</li>
                         <li>Problemas internos de la asociación debe de llevarse a los consejeros y la directiva.</li>
                         <li>La asociación es abierta a toda la comunidad universitaria. </li>
-						<li>Se solicita un cargo de $10 para la membresía de un año y $10 para la camisa de la asociación.</li>
-					</ul>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -314,7 +313,7 @@
                     <div class="row row-bottom-padded-lg">
                         <div class="col-md-4 text-center to-animate">
                             <div class="person"> <img src="images/acosta.jpg" class="img-responsive img-rounded" alt="Person">
-                                <h3 class="name">Ángel A. Acosta Colón</h3>
+                                <h3 class="name">Angel 'Albert' Acosta-Colon</h3>
                                 <div class="position">Mentor</div>
                                 <p> Director del Departamento de Física-Química</p>
                                 <br>
@@ -329,7 +328,7 @@
                         </div>
                         <div class="col-md-4 text-center to-animate">
                             <div class="person"> <img src="images/ingrid.jpg" class="img-responsive img-rounded" alt="Person">
-                                <h3 class="name">Ingrid C. Arroyo Rodríguez</h3>
+                                <h3 class="name">Ingrid C. Arroyo Rodz</h3>
                                 <div class="position">Presidenta</div>
                                 <p> Departamento de Física-Química</p>
                                 <p> Bachillerato en Procesos Químicos Industriales.</p>
@@ -343,7 +342,7 @@
                         </div>
                         <div class="col-md-4 text-center to-animate">
                             <div class="person"> <img src="images/melisa.jpg" class="img-responsive img-rounded" alt="Person">
-                                <h3 class="name">Melisa Amenabar</h3>
+                                <h3 class="name">Melissa Amenabar</h3>
                                 <div class="position">Secretaria</div>
                                 <p> Departamento de Física-Química</p>
                                 <p> Bachillerato en Procesos Químicos Industriales.</p>
@@ -496,7 +495,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 section-heading text-center">
-                    <h2 class="single-animate animate-press-1">Asociaciones</h2>
+                    <h2 class="single-animate animate-press-1">Asociaciónes</h2>
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 subtext single-animate animate-press-2">
                             <h3>Estas son las asociaciones hermanas que comparten las mismas metas de Aullido Verde.</h3> </div>
@@ -567,14 +566,14 @@
         <div class="container">
             <div class="row row-bottom-padded-lg" id="contact">
                 <div class="col-md-12 section-heading text-center">
-                    <h2 class="to-animate">Contáctenos Vía E-mail</h2>
+                    <h2 class="to-animate">Contáctenos Via E-mail</h2>
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 to-animate">
-                            <h3>Para más información puede escribirnos vía e-mail y le contestaremos en la mayor brevedad posible.</h3> </div>
+                            <h3>Para más información puede escribirnos ia e-mail y le contestaremos en la mayor brevedad posible.</h3> </div>
                     </div>
                 </div>
                 <div align="left" class="col-md-6 to-animate">
-                    <form method="post"  class="form-horizontal" action="send-email.php">
+                    <form method="post" class="form-horizontal">
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="asunto">Asunto:</label>
                             <div class="col-sm-10">
@@ -610,50 +609,44 @@
         </div>
     </div>
     <!-- php -->
-    <!--<?php
-	// if ($_SERVER["REQUEST_METHOD"] == "POST") {
-	//       if($_POST['email'] != "" && $_POST['asunto'] != "" && $_POST['mensaje'] != "")
-	//       {
-    //           // poner el de acosta y presidenta
-    //         $to = "emmanuel.castro@upr.edu";
-    //         $message = $_POST['mensaje'];
-    //         $from = $_POST['email'];
-    //         $asunto = $_POST['asunto'];
-    //         $subject = "Aullido Verde Webpage: $asunto";
-    //         $headers = "From: $from";
-    //         $user_message = "Saludos, \n\nSu mensaje a sido enviado. Pronto nos estaremos comunicando con usted para ayudarle.";
-    //         $user_subject = "Mensaje automático";
-    //         $user_header = "De: Aullido Verde";
+    <?php
+    $ok_modal_flag = false;
+    $error_modal_flag = false;
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+	      if($_POST['email'] != "" && $_POST['asunto'] != "" && $_POST['mensaje'] != "")
+	      {
+              // poner el de acosta y presidenta
+            $to = "emmanuel.castro@upr.edu, elliot.lopez1@upr.edu, aixa.ramirez@upr.edu";
+            $message = $_POST['mensaje'];
+            $from = $_POST['email'];
+            $asunto = $_POST['asunto'];
+            $subject = "Aullido Verde Webpage: $asunto";
+            $headers = "From: $from";
+            $user_message = "Saludos, \n\nSu mensaje a sido enviado. Pronto nos estaremos comunicando con usted para ayudarle.";
+            $user_subject = "Mensaje automático";
+            $user_header = "De: Aullido Verde";
+      		
+      		if(mail($to, $subject, $message, $headers) && mail($from, $user_subject, $user_message, $user_header)){
+                 $ok_modal_flag = true;  //presentar modal éxito
+            }
 
-    //         header("Refresh: 0; url=index.php");
-    //         if(mail($to, $subject, $message, $headers) && mail($from, $user_subject, $user_message, $user_header)) {
-    //             echo '<script language= "javascript">';
-    //             echo '$("#ok-modal").modal("show");';
-    //             echo '</script>';
-    //         } else { 
-    //             echo '<script language= "javascript">';
-    //             echo '$("#myModal").modal("show");';
-    //             echo '</script>';
-    //         }
-    //   		/*
-    //   		if(mail($to, $subject, $message, $headers) && mail($from, $user_subject, $user_message, $user_header)){
-    //              $ok_modal_flag = true;  //presentar modal éxito
-    //         }
-
-    //   		else{
-    //             $error_modal_flag = true; //presentar modal error
-    //         }
-    //         */
-	//    }
-    // }
-    ?>-->
+      		else{
+                $error_modal_flag = true; //presentar modal error
+            }
+	   }
+    }
+    ?>
+    <?php if($ok_modal_flag):?>
+    <script>$("#ok-modal").modal("show");</script>
+    <?php endif;?>
+    <!--<//?php if($ok_modal_flag):?>-->
 
     <!--fh5co-testimonials  style="background-color:#65d269;"-->
     <footer id="footer" style="background-color: #f4f4f4;" role="contentinfo">
         <div class="container">
             <div class="row row-bottom-padded-sm">
                 <div align="center" class="col-md-12">
-                    <p class="copyright text-center">CCOM 4305 L20  Primer Semestre 2016-2017
+                    <p class="copyright text-center">CCOM 4305 Primer Semestre 2016-2017
                         <br> Elliot R. López Collazo &amp; Emmanuel Castro Soto
                         <br>&copy; 2016<a href="index.php"> Aullido Verde</a> Km. 0.8, PR-653, Arecibo, 00612
                         <br>(787)815-0000 <b>Ext.3160</b></p>
@@ -688,7 +681,7 @@
             </div>
         </div>
     </div>
-    
+    </script>
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
     <!-- jQuery Easing -->

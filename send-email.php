@@ -7,46 +7,39 @@
 </head>
 
 <body>
-   <?php
+    <?php
+       	$to = "emmanuel.castro@upr.edu, <elliot.lopez1@upr.edu>";
+		$message = $_POST['mensaje'];
+		$from = $_POST['email'];
+		$asunto = $_POST['asunto'];
+		$subject = " Aullido Verde Webpage-- $asunto";
+		$headers = "From: $from";
+		
+		if(mail($to,$subject,$message,$headers))
+			echo "<p>Su mensaje ha sido recibido, nos comunicaremos con usted proximamento...</p>";
+		else
+			echo"<p>El envio de su mensaje fallo , trate mas tarde...</p>";
+			
+?>
+        <?php
+
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	      if($_POST['email'] != "" && $_POST['asunto'] != "" && $_POST['mensaje'] != "")
 	      {
-              // poner el de acosta y presidenta
-            $to = "emmanuel.castro@upr.edu";
-            $message = $_POST['mensaje'];
-            $from = $_POST['email'];
-            $asunto = $_POST['asunto'];
-            $subject = "Aullido Verde Webpage: $asunto";
-            $headers = "From: $from";
-            $user_message = "Saludos, \n\nSu mensaje a sido enviado. Pronto nos estaremos comunicando con usted para ayudarle.";
-            $user_subject = "Mensaje automático";
-            $user_header = "De: Aullido Verde";
-
-            header("Refresh: 0; url=index.html");
-            if(mail($to, $subject, $message, $headers) && mail($from, $user_subject, $user_message, $user_header)) {
-                echo '<script language= "javascript">';
-                echo 'alert("El mensaje ha sido enviado");';
-                echo '</script>';
-            } else { 
-                echo '<script language= "javascript">';
-                echo '$("#myModal").modal("show");';
-                echo '</script>';
-				// 'alert("El mensaje ha sido enviado");';
-				// '$("#ok-modal").modal("show");';
-            }
-      		/*
-      		if(mail($to, $subject, $message, $headers) && mail($from, $user_subject, $user_message, $user_header)){
-                 $ok_modal_flag = true;  //presentar modal éxito
+          $email = $_POST['email'];
+          $mensaje = "Asunto: " . $_POST['asunto'] . "\n\nMensaje: ". $_POST['message'];
+          $mensaje_usuario = "Saludos, " . "\n\nSu mensaje a sido enviado. Pronto nos estaremos comunicando con usted para ayudarle.";
+      		
+      		if(mail("emmanuel.castro@upr.edu, elliot.lopez1@upr.edu", $_POST['asunto'] , "$mensaje", "From: $email") && mail($email, "Mensaje automático", $mensaje_usuario, "De: Aullido Verde")){
+                // echo '';  //presentar modal éxito
             }
 
       		else{
-                $error_modal_flag = true; //presentar modal error
+                // echo ''; //presentar modal error
             }
-            */
 	   }
     }
-    ?>
-
+  ?>
 </body>
 
 </html>

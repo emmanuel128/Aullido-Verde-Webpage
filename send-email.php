@@ -10,9 +10,9 @@
    <?php
 	
 	$contacts = array(
-		"angel.acosta2@upr.edu",
-		"elliot.lopez1@upr.edu",
-		"ingrid.arroyo@upr.edu",
+//		"angel.acosta2@upr.edu",
+		"elliot.lopez1@upr.edu"
+//		"ingrid.arroyo@upr.edu",
 		//....add todos los e-mails que quieran
 		);
 	foreach($contacts as $contact)

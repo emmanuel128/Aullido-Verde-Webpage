@@ -3,14 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Datos del Formulario Contactanos</title>
+    <title>Enviando Datos...</title>
 </head>
 
 <body>
    <?php
 		//....añadir todos los e-mails que quieran		
-		//$emails = "angel.acosta2@upr.edu, , ingrid.arroyo@upr.edu";
-		$emails = "emmanuel.castro@upr.edu, elliot.lopez1@upr.edu";
+		$emails = "angel.acosta2@upr.edu, , ingrid.arroyo@upr.edu";
 
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			if($_POST['email'] != "" && $_POST['asunto'] != "" && $_POST['mensaje'] != "")
